@@ -28,5 +28,4 @@ class Artist
   def song_count
     songs.each { |song| puts song.name }
   end
-  end
 end
