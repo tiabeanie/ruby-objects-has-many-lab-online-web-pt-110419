@@ -26,6 +26,6 @@ class Artist
   end
 
   def song_count
-    songs.each { |song| puts song.name } + 1
+    @@song_count.each { |song| puts song.name } + 1
   end
 end
