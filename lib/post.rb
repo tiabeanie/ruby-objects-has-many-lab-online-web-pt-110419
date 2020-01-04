@@ -17,7 +17,7 @@ class Post
   end
 
   def self.all
-    @@all + 1
+    @@all
   end
 end
 
