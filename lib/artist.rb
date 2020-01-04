@@ -25,7 +25,7 @@ class Artist
     @songs 
   end
 
-  def song_count
-    songs.each { |song| puts song.name } + 1
+  def self.song_count
+    @@song_count + 1
   end
 end
